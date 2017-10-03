@@ -8,6 +8,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 250px;
+  position: absolute;
 
   background-color: #fff;
   border-radius: 4px;
@@ -26,12 +27,18 @@ html {
 
 .polaroid:first-child {
   transform: rotate(-12deg);
+  left: 19em;
+  top: 10em;
 }
 
 .polaroid:nth-child(2) {
-  transform: rotate(6deg);
+  transform: rotate(3deg);
+  left: 26em;
+  top: 13em;
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(20deg);
+  transform: rotate(26deg);
+  left: 32em;
+  top: 10em;
 }
